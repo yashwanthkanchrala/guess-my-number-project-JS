@@ -40,7 +40,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage('no number entered');
   } else if (guess === secretNumber) {
     //document.querySelector('.message').textContent = 'correct-number';
-    displayMessage(correct - number);
+    displayMessage('correct - number');
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
